@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+body {
+  font-family: 'Segoe UI', 'PT Sans', Arial, Helvetica, sans-serif;
+  background-color: hsl(221.5, 14%, 18.2%);
+  color: rgb(217, 217, 217);
+  border-top: 4px #556eff solid;
+  font-size: 1.1rem;
+}
+
+#container {
+  max-width: 620px;
+  margin: auto;
+  padding: 24px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#output {
+  font-size: 1.4rem;
+}
+
+.center > h1 {
+  font-size: 2.75rem;
+}
+
+.color {
+  color: #55b2ff;
+}
+
+.stat {
+  color: #55b2ff;
+  font-weight: bolder;
+}
+
+div {
+  margin: 36px 0;
+}
+
+a {
+  color: #55b2ff;
+}
+
+p {
+  line-height: 2rem;
+}
+
+li {
+  line-height: 1.5rem;
+  margin-bottom: 1.7rem;
+}
+
+#q-links {
+  padding: 18px 48px;
+  border: 1px #55b2ff solid;
+}
