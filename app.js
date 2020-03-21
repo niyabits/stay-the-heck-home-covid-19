@@ -13,7 +13,7 @@ fetch('https://api.covid19api.com/summary')
       TotalDeaths,
       NewRecovered,
       TotalRecovered
-    } = data.Countries[73];
+    } = data.Countries[76];
 
     html = `
     <p>
